@@ -207,8 +207,9 @@
 								callback(json);
 								//console.log(json);
 							},
-							error: function(xhr, type){
-							    alert('Ajax error!')
+							error: function(result){
+							    alert(result);
+							    
 							  }
 						});
 				}
